@@ -6,6 +6,7 @@ body {
   height: 100px;
   width: 100px;
   margin: 200px auto;
+  margin-bottom: 100px;
   top: 0;
   transform: rotate(-45deg);
   animation: beat 1s infinite alternate;
@@ -34,4 +35,12 @@ body {
   100% {
     transform: scale(1.5) rotate(-45deg);
   }
+}
+.create{
+  text-align: center;
+  font-size: 24px;
+  font-family: cursive;
+}
+.create span a{
+  color: #c1121f;
 }
