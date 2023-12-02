@@ -5,10 +5,10 @@ body {
   background-color: #c1121f;
   height: 100px;
   width: 100px;
-  margin: 100px;
+  margin: 200px auto;
   top: 0;
   transform: rotate(-45deg);
-  animation: beat 650ms infinite alternate;
+  animation: beat 1s infinite alternate;
 }
 .heart:before,
 .heart:after {
@@ -29,9 +29,9 @@ body {
 }
 @keyframes beat {
   0% {
-    transform: scale(.15) rotate(-45deg);
+    transform: scale(1) rotate(-45deg);
   }
   100% {
-    transform: scale(.20) rotate(-45deg);
+    transform: scale(1.5) rotate(-45deg);
   }
 }
